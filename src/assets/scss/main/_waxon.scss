@@ -88,7 +88,7 @@ h5,
 h6 {
   font-weight: 500;
   line-height: 1.4;
-  font-family: "Montserrat";
+  font-family: "Sarpanch";
   color: #000;
 }
 
@@ -633,8 +633,8 @@ h6 {
 }
 .waxon_tm_hero .content_inner h3 {
   color: #000;
-  font-size: 120px;
-  font-weight: 900;
+  font-size: 110px;
+  font-weight:900;
   text-transform: uppercase;
   margin: 0px;
   padding: 0px;
@@ -645,11 +645,19 @@ h6 {
   color: transparent;
 }
 .waxon_tm_hero .content_inner span {
-  font-family: "Montserrat";
-  font-weight: 600;
+  font-family: "Poiret One";
+  color: #fff;
+  font-weight: 200;
   display: inline-block;
-  padding-top: 20px;
+  padding-top: 50px;
   font-style: italic;
+  font-size: 60px;
+}
+.waxon_tm_hero .content_inner .underline_border {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 24px;
+  padding-left: 3px;
+  padding-right:30px;
 }
 .waxon_tm_down {
   position: absolute;
@@ -3044,6 +3052,14 @@ body.dark .waxon_tm_settings .cursor li .svg,
   .waxon_tm_hero .content_inner h3 {
     font-size: 50px;
   }
+  .waxon_tm_hero .content_inner span {
+    font-size: 40px;
+  }
+  .waxon_tm_hero .content_inner .underline_border {
+    padding-bottom: 18px;
+    padding-left: 2px;
+    padding-right:18px;
+  }  
   .waxon_tm_copyright .copyright_inner > ul > li {
     width: 100%;
     padding-left: 0px;

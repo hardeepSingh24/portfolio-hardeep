@@ -71,7 +71,7 @@
 
 <script>
 import Header from "../components/Header.vue";
-import Slider from "../components/slider/SliderThree.vue";
+import Slider from "../components/slider/Slider.vue";
 import About from "../components/about/About.vue";
 import Service from "../components/services/Service.vue";
 import Portfolio from "../components/portfolio/Portfolio.vue";
