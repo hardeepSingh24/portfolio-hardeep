@@ -742,9 +742,10 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  margin-bottom: 193px;
-  padding-top: 230px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
 .waxon_tm_about .about_inner {
   width: 100%;
   height: auto;
@@ -772,7 +773,7 @@ h6 {
 .waxon_tm_about .name h3 {
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 35px;
+  font-size: 45px;
   position: relative;
   color: #000;
 }
@@ -794,6 +795,7 @@ h6 {
   font-weight: 600;
   display: inline-block;
   padding-top: 10px;
+  font-size: 25px;
 }
 .waxon_tm_about span.job {
   font-style: italic;
@@ -804,6 +806,7 @@ h6 {
   margin-bottom: 23px;
 }
 .waxon_tm_about .right .text p {
+  font-size: 23px;
   margin-bottom: 13px;
   font-style: italic;
 }
@@ -3010,8 +3013,8 @@ body.dark .waxon_tm_settings .cursor li .svg,
     padding-left: 0px;
   }
   .waxon_tm_about {
-    margin-bottom: 120px;
     padding-top: 120px;
+    padding-bottom: 100px;
   }
   .waxon_tm_service {
     margin-bottom: 120px;
@@ -3183,8 +3186,8 @@ body.dark .waxon_tm_settings .cursor li .svg,
     margin: initial;
   }
   .waxon_tm_about {
-    margin-bottom: 90px;
     padding-top: 90px;
+    padding-bottom: 90px;
   }
   .waxon_tm_service {
     margin-bottom: 90px;

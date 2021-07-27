@@ -9,9 +9,6 @@
     <About />
     <!-- End About -->
 
-    <Service />
-    <!-- End Service -->
-
     <div class="waxon_tm_portoflio" id="portfolio">
       <Portfolio />
     </div>
@@ -73,7 +70,6 @@
 import Header from "../components/Header.vue";
 import Slider from "../components/slider/Slider.vue";
 import About from "../components/about/About.vue";
-import Service from "../components/services/Service.vue";
 import Portfolio from "../components/portfolio/Portfolio.vue";
 import Testimonial from "../components/testimonial/Testimonial.vue";
 import News from "../components/news/News.vue";
@@ -85,7 +81,6 @@ export default {
     Header,
     Slider,
     About,
-    Service,
     Portfolio,
     Testimonial,
     News,
