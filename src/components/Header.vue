@@ -32,9 +32,9 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#portfolio" class="scrollactive-item">
-                        <span class="first">Portfolio</span>
-                        <span class="second">Portfolio</span>
+                      <a href="#gallery" class="scrollactive-item">
+                        <span class="first">Gallery</span>
+                        <span class="second">Gallery</span>
                       </a>
                     </li>
                     <li>
@@ -131,10 +131,10 @@
                 </li>
                 <li>
                   <a
-                    href="#portfolio"
+                    href="#gallery"
                     class="scrollactive-item"
                     @click="active = !active"
-                    >Portfolio</a
+                    >Gallery</a
                   >
                 </li>
                 <li>

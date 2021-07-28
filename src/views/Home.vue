@@ -9,7 +9,7 @@
     <About />
     <!-- End About -->
 
-    <div class="waxon_tm_portoflio" id="portfolio">
+    <div class="waxon_tm_portoflio" id="gallery">
       <Portfolio />
     </div>
     <!-- End Portfolio -->

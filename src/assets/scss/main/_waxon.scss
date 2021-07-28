@@ -1373,8 +1373,8 @@ h6 {
   left: 0px;
   right: 0px;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size:contain;
+  background-position:center;
   transition: all 0.3s ease;
   cursor: pointer;
 }
