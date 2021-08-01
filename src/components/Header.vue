@@ -7,7 +7,7 @@
           <div class="topbar_inner">
             <div class="logo">
               <router-link to="/">
-                <img src="../assets/img/logo/dark.png" alt="partners brand" />
+                <img src="../assets/img/logo/dark-logo.png" alt="partners brand" />
               </router-link>
             </div>
             <div class="menu">
@@ -32,9 +32,9 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#portfolio" class="scrollactive-item">
-                        <span class="first">Portfolio</span>
-                        <span class="second">Portfolio</span>
+                      <a href="#gallery" class="scrollactive-item">
+                        <span class="first">Gallery</span>
+                        <span class="second">Gallery</span>
                       </a>
                     </li>
                     <li>
@@ -72,7 +72,7 @@
           <div class="topbar_in">
             <div class="logo">
               <router-link to="/">
-                <img src="../assets/img/logo/dark.png" alt="partners brand" />
+                <img src="../assets/img/logo/dark-logo.png" />
               </router-link>
             </div>
             <div class="my_trigger">
@@ -131,10 +131,10 @@
                 </li>
                 <li>
                   <a
-                    href="#portfolio"
+                    href="#gallery"
                     class="scrollactive-item"
                     @click="active = !active"
-                    >Portfolio</a
+                    >Gallery</a
                   >
                 </li>
                 <li>
