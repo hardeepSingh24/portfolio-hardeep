@@ -52,30 +52,30 @@ export default {
   data() {
     return {
       socialList: [
-        {
-          icon: require("../assets/img/svg/social/facebook.svg"),
-          link: "https://www.facebook.com/",
-        },
-        {
-          icon: require("../assets/img/svg/social/twitter.svg"),
-          link: "https://twitter.com/",
-        },
+        // {
+        //   icon: require("../assets/img/svg/social/facebook.svg"),
+        //   link: "https://www.facebook.com/",
+        // },
+        // {
+        //   icon: require("../assets/img/svg/social/twitter.svg"),
+        //   link: "https://twitter.com/",
+        // },
         {
           icon: require("../assets/img/svg/social/instagram.svg"),
-          link: "https://www.instagram.com/",
+          link: "https://www.instagram.com/hardeep_iamdeep",
         },
-        {
-          icon: require("../assets/img/svg/social/soundcloud.svg"),
-          link: "https://soundcloud.com/",
-        },
-        {
-          icon: require("../assets/img/svg/social/youtube.svg"),
-          link: "https://www.youtube.com/",
-        },
-        {
-          icon: require("../assets/img/svg/social/vk.svg"),
-          link: "https://vk.com/?lang=en",
-        },
+        // {
+        //   icon: require("../assets/img/svg/social/soundcloud.svg"),
+        //   link: "https://soundcloud.com/",
+        // },
+        // {
+        //   icon: require("../assets/img/svg/social/youtube.svg"),
+        //   link: "https://www.youtube.com/",
+        // },
+        // {
+        //   icon: require("../assets/img/svg/social/vk.svg"),
+        //   link: "https://vk.com/?lang=en",
+        // },
       ],
     };
   },

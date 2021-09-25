@@ -14,12 +14,12 @@ export default {
   data() {
     return {
       socialList: [
+        // {
+        //   link: "https://www.facebook.com/",
+        //   src: require("../assets/img/svg/social/facebook.svg"),
+        // },
         {
-          link: "https://www.facebook.com/",
-          src: require("../assets/img/svg/social/facebook.svg"),
-        },
-        {
-          link: "https://www.instagram.com/",
+          link: "https://www.instagram.com/hardeep_iamdeep",
           src: require("../assets/img/svg/social/instagram.svg"),
         }
       ],
