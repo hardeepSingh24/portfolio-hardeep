@@ -649,15 +649,15 @@ h6 {
   color: #fff;
   font-weight: 200;
   display: inline-block;
-  padding-top: 50px;
+  padding-top: 40px;
   font-style: italic;
-  font-size: 60px;
+  font-size: 40px;
 }
 .waxon_tm_hero .content_inner .underline_border {
   border-bottom: 1px solid #fff;
-  padding-bottom: 24px;
+  padding-bottom: 20px;
   padding-left: 3px;
-  padding-right:30px;
+  padding-right:20px;
 }
 .waxon_tm_down {
   position: absolute;
@@ -2077,6 +2077,18 @@ body.modal {
   }
 }
 
+.waxon_tm_contact .left .contact_email {
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.waxon_tm_contact .right .contact_image {
+  width:60%;
+  height: auto;
+}
+
 /*---------------------------------------------------*/
 /*	11) WAXON COPYRIGHT
 /*---------------------------------------------------*/
@@ -2818,6 +2830,13 @@ body.dark .waxon_tm_settings .cursor li .svg,
   .container {
     max-width: 1300px;
   }
+  .waxon_tm_contact .left .contact_email {
+    font-size: 35px;
+  } 
+  .waxon_tm_contact .right .contact_image {
+    width:60%;
+    height: auto;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -2863,6 +2882,10 @@ body.dark .waxon_tm_settings .cursor li .svg,
   .waxon_tm_modalbox_about .close .svg {
     width: 25px;
     height: 25px;
+  }  
+  .waxon_tm_contact .right .contact_image {
+    width:100%;
+    height: auto;
   }
 }
 
@@ -3032,7 +3055,7 @@ body.dark .waxon_tm_settings .cursor li .svg,
   .waxon_tm_contact {
     padding-top: 120px;
     margin-bottom: 120px;
-  }
+  }  
 }
 @media (max-width: 768px) {
   .waxon_tm_about .about_inner {
@@ -3050,18 +3073,23 @@ body.dark .waxon_tm_settings .cursor li .svg,
     width: 100%;
     padding-left: 0px;
   }
+  .waxon_tm_contact .left .contact_email {
+    font-size: 25px;
+    padding-top: 15px;;
+  }
+  
 }
 @media (max-width: 767px) {
   .waxon_tm_hero .content_inner h3 {
     font-size: 50px;
   }
   .waxon_tm_hero .content_inner span {
-    font-size: 40px;
+    font-size: 30px;
   }
   .waxon_tm_hero .content_inner .underline_border {
-    padding-bottom: 18px;
+    padding-bottom: 14px;
     padding-left: 2px;
-    padding-right:18px;
+    padding-right:14px;
   }  
   .waxon_tm_copyright .copyright_inner > ul > li {
     width: 100%;
@@ -3208,6 +3236,11 @@ body.dark .waxon_tm_settings .cursor li .svg,
   }
   .waxon_tm_news ul li .details {
     padding: 30px 20px 25px 20px;
+  }
+
+  .waxon_tm_contact .left .contact_email {
+    font-size: 20px;
+    padding-top: 15px;;
   }
 
   .waxon_tm_hero:before {

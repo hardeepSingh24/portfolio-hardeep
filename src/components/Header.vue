@@ -38,18 +38,6 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#testimonial" class="scrollactive-item">
-                        <span class="first">Testimonail</span>
-                        <span class="second">Testimonail</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#news" class="scrollactive-item">
-                        <span class="first">News</span>
-                        <span class="second">News</span>
-                      </a>
-                    </li>
-                    <li>
                       <a href="#contact" class="scrollactive-item">
                         <span class="first">Contact</span>
                         <span class="second">Contact</span>
@@ -135,14 +123,6 @@
                     class="scrollactive-item"
                     @click="active = !active"
                     >Gallery</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#news"
-                    class="scrollactive-item"
-                    @click="active = !active"
-                    >News</a
                   >
                 </li>
                 <li>
