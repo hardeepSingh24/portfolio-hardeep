@@ -8,20 +8,38 @@
               class="title"
               v-scroll-reveal="{ delay: 20, distance: '20px' }"
             >
-              <h3>Get in Touch<span class="bg">Contact</span></h3>
+              <h3>Let's work together<span class="bg">Contact</span></h3>
             </div>
           </div>
           <div class="desc" v-scroll-reveal="{ delay: 30, distance: '20px' }">
             <p>
-              Please fill out the form on this section to contact with me.
+              HAVE A PROJECT? SEND ME A MESSAGE
             </p>
           </div>
           <div class="wrapper">
             <div class="left" v-scroll-reveal="{ delay: 40 }">
-              <ContactForm />
+              <div class="tokyo_tm_button" v-scroll-reveal="{ delay: 100 }">
+                <button class="ib-button" @click="sendMessage">
+                  <span>Send Message</span>
+                </button>
+              </div>
+              
+                <div class="social">
+                  <a href="" target="_blank">
+                      <span class=""
+                        ><img class="svg" :src="instagramIcon" alt="social icon"
+                  /></span>
+                  </a>
+                </div>
+              
             </div>
+
             <div class="right" v-scroll-reveal="{ delay: 60 }">
-              <p>Todo: add instagram link</p>
+                <img style="height: 500px"
+                  class="thumbnail"
+                  :src="contactImage"
+                  alt="contact me image"
+                />
             </div>
           </div>
         </div>
@@ -30,11 +48,21 @@
 </template>
 
 <script>
-import ContactForm from "../contact/ContactForm.vue";
 
 export default {
   components: {
-    ContactForm
+    
+  },
+  methods: {
+    sendMessage: function() {
+      window.location.href = "mailto:someone@yoursite.com"
+    },
+  },
+   data() {
+    return {
+      contactImage: require("../../assets/img/portfolio/headshot4.jpg"),
+      instagramIcon: require("../../assets/img/svg/social/instagram-iconmonster.svg")     
+    };
   }
 };
 </script>

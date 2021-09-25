@@ -35,10 +35,13 @@
       </div>
       <!-- End All .tabcontent 1 -->
     </div>
+    
   </div>
+  
 </template>
 
 <script>
+
 export default {
   data() {
     return {
@@ -59,12 +62,6 @@ export default {
           src: require("../..//assets/img/portfolio/headshot3.jpg"),
           thumb: require("../../assets/img/portfolio/headshot3.jpg"),
           portfolioName: "Headshot 3",
-          portfolioType: "Gallery",
-        },
-        {
-          src: require("../..//assets/img/portfolio/headshot4.jpg"),
-          thumb: require("../../assets/img/portfolio/headshot4.jpg"),
-          portfolioName: "Headshot 4",
           portfolioType: "Gallery",
         }
       ],

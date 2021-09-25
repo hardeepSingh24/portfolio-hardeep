@@ -19,22 +19,9 @@ export default {
           src: require("../assets/img/svg/social/facebook.svg"),
         },
         {
-          link: "https://twitter.com/",
-          src: require("../assets/img/svg/social/twitter.svg"),
-        },
-        {
           link: "https://www.instagram.com/",
           src: require("../assets/img/svg/social/instagram.svg"),
-        },
-
-        {
-          link: "https://dribbble.com/",
-          src: require("../assets/img/svg/social/dribbble.svg"),
-        },
-        {
-          link: "https://www.tiktok.com/",
-          src: require("../assets/img/svg/social/tik-tok.svg"),
-        },
+        }
       ],
     };
   },
