@@ -7,7 +7,7 @@
           <div class="topbar_inner">
             <div class="logo">
               <router-link to="/">
-                <img src="../assets/img/logo/dark-logo.png" alt="partners brand" />
+                <img src="../assets/img/logo/main-logo.png" alt="site brand" />
               </router-link>
             </div>
             <div class="menu">
@@ -60,7 +60,7 @@
           <div class="topbar_in">
             <div class="logo">
               <router-link to="/">
-                <img src="../assets/img/logo/dark-logo.png" />
+                <img src="../assets/img/logo/main-logo.png" />
               </router-link>
             </div>
             <div class="my_trigger">

@@ -21,18 +21,25 @@
                 <span>Send message</span>
               </button>
             </div>
-          
-            <!-- <div class="social">
-              doesn't work
-              <a href="" target="_blank">
-                <span class=""
-                  ><img class="" :src="instagramIcon" alt="social icon"
-                /></span>
+
+            <div class="contact_social" v-scroll-reveal="{ delay: 100 }">
+              <a
+                :href="instagramLink"
+                target="_blank"
+                class="contact_social_link"
+                ><img
+                  class="contact_social_image"
+                  :src="instagramIcon"
+                  alt="instagram"
+                />
+                &nbsp;<span class="contact_social_text">
+                  Instagram
+                </span>
               </a>
-            </div> -->
+            </div>
           </div>
 
-          <div class="right" v-scroll-reveal="{ delay: 60 }">
+          <div class="right" v-scroll-reveal="{ delay: 70 }">
             <img
               class="contact_image"
               :src="contactImage"
@@ -56,7 +63,8 @@ export default {
     return {
       emailAddress: "hardeep.24sk@gmail.com",
       contactImage: require("../../assets/img/portfolio/headshot4.jpg"),
-      instagramIcon: require("../../assets/img/svg/social/iconmonstr-instagram-15.svg"),
+      instagramIcon: require("../../assets/img/svg/social/instagram-white.png"),
+      instagramLink: "https://www.instagram.com/hardeep_iamdeep",
     };
   },
 };

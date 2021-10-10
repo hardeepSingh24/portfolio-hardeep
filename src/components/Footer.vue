@@ -5,10 +5,6 @@
         <ul>
           <li v-scroll-reveal="{ delay: 20, distance: '20px' }">
             <span>HARDEEP &copy; {{ new Date().getFullYear() }}</span>
-
-            <span>
-              All rights reserved.</span
-            >
           </li>
           <!-- End li -->
 
