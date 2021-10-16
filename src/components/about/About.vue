@@ -18,12 +18,11 @@
           <div class="text">
             <p v-scroll-reveal="{ delay: 60 }">
               I'm based in London but I was born in India and I grew up in Italy.
-              I became bilingual by living in different countries so I can speak 
-              perfectly in English, Italian and Punjabi (and a little bit of Hindi).
+              I can fluently speak English, Italian and Punjabi (and a little bit of Hindi).
             </p>
             <p v-scroll-reveal="{ delay: 80 }">
               I've started acting in Theatre in Italy and once I moved to London
-              I started to focus on screen acting (Films & Tv).
+              I focused on screen acting (Films & Tv).
               I'm always happy to work on exciting projects but 
               for me it's also important to keep training for which I rely on
               acting classes and 1 to 1 with acting coach.
