@@ -17,13 +17,14 @@
           </div>
           <div class="text">
             <p v-scroll-reveal="{ delay: 60 }">
-              I'm based in London but I was born in India and I grew up in Italy.
+              I'm Hardeep Singh, a London-based actor.
+              I was born in India but I grew up in Italy.
               I can fluently speak English, Italian and Punjabi (and a little bit of Hindi).
             </p>
             <p v-scroll-reveal="{ delay: 80 }">
               I've started acting in Theatre in Italy and once I moved to London
               I focused on screen acting (Films & Tv).
-              I'm always happy to work on exciting projects but 
+              I'm always looking for exciting projects to work on but 
               for me it's also important to keep training for which I rely on
               acting classes and 1 to 1 with acting coach.
             </p>
