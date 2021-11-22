@@ -13,22 +13,25 @@
         <div class="right">
           <div class="name" v-scroll-reveal="{ delay: 40 }">
             <h3>Hardeep Singh<span class="bg">About</span></h3>
-            <span class="job">Hey there, here's a little bit about me!</span>
+            <span class="job">Hey there, here's a little introduction!</span>
           </div>
-          <div class="text">
+           <div class="text">
             <p v-scroll-reveal="{ delay: 60 }">
-              I'm Hardeep Singh, a London-based actor.
-              I was born in India but I grew up in Italy.
-              I can fluently speak English, Italian and Punjabi (and a little bit of Hindi).
+             Hardeep is a London-based actor, born in India and raised in Italy. 
+             <br>
+             Fluent in English, Italian, and Punjabi with competent Hindi.
             </p>
             <p v-scroll-reveal="{ delay: 80 }">
-              I've started acting in Theatre in Italy and once I moved to London
-              I focused on screen acting (Films & Tv).
-              I'm always looking for exciting projects to work on but 
-              for me it's also important to keep training for which I rely on
-              acting classes and 1 to 1 with acting coach.
+              A theatre-trained Italian who moved to London to pursue training in screen acting, 
+              films &#38; television. 
+              <br>
+              Currently enrolled in a 2-year course with the London School of Dramatic Art.
+              Having previously finished screen acting classes with "Anna Fiorentini's 
+              Stage and the City" and 2-year theatre training in Italy.
+              <br>
+              Theatre and film credits include: "Sherlock Holmes" and "Le serve di Amleto".
             </p>
-          </div>          
+          </div>         
         </div>
         <!-- End right content -->
       </div>
