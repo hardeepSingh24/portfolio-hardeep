@@ -10,7 +10,7 @@
         </div>
         <div class="desc" v-scroll-reveal="{ delay: 30, distance: '20px' }">
           <p>
-            HAVE A PROJECT? SEND ME A MESSAGE AT
+            HAVE A PROJECT? SEND A MESSAGE AT
           </p>
         </div>
         <div class="wrapper">
