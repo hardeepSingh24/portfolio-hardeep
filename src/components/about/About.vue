@@ -15,7 +15,7 @@
             <h3>Hardeep Singh<span class="bg">About</span></h3>
             <span class="job">Hey there, here's a little introduction!</span>
           </div>
-          <div class="text">
+           <div class="text">
             <p v-scroll-reveal="{ delay: 60 }">
              Hardeep is a London-based actor, born in India and raised in Italy. 
              <br>
@@ -31,7 +31,7 @@
               <br>
               Theatre and film credits include: "Sherlock Holmes" and "Le serve di Amleto".
             </p>
-          </div>          
+          </div>         
         </div>
         <!-- End right content -->
       </div>
