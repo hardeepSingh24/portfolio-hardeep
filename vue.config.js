@@ -1,4 +1,4 @@
 module.exports = {
-     // publicPath: '/'
-      publicPath: '/portfolio-hardeep/'
+     publicPath: '/'
+      // publicPath: '/portfolio-hardeep/'
 }
