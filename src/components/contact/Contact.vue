@@ -15,7 +15,11 @@
         </div>
         <div class="wrapper">
           <div class="left" v-scroll-reveal="{ delay: 40 }">
-            <p class="contact_email">{{ emailAddress }}</p>
+            <a class="contact_email" 
+              style="cursor: pointer;" 
+              :href="`mailto:${emailAddress}`">
+              {{ emailAddress }}
+            </a>
             <div class="tokyo_tm_button" v-scroll-reveal="{ delay: 100 }">
               <button class="ib-button" @click="sendMessage">
                 <span>Send message</span>
