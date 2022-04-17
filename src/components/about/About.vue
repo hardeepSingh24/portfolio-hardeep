@@ -29,7 +29,9 @@
               Having previously finished screen acting classes with "Anna Fiorentini's 
               Stage and the City" and 2-year theatre training in Italy.
               <br>
-              Theatre and film credits include: "Sherlock Holmes" and "Le serve di Amleto".
+              Film credits include: lead role in "Kinaree" and "Lost souls".
+              <br>
+              Theatre credits include: "Sherlock Holmes" and "Le serve di Amleto".
             </p>
           </div>         
         </div>

@@ -38,6 +38,12 @@
                       </a>
                     </li>
                     <li>
+                      <a href="#showreel" class="scrollactive-item">
+                        <span class="first">Showreel</span>
+                        <span class="second">Showreel</span>
+                      </a>
+                    </li>
+                    <li>
                       <a href="#contact" class="scrollactive-item">
                         <span class="first">Contact</span>
                         <span class="second">Contact</span>
@@ -127,6 +133,14 @@
                 </li>
                 <li>
                   <a
+                    href="#showreel"
+                    class="scrollactive-item"
+                    @click="active = !active"
+                    >Showreel</a
+                  >
+                </li>
+                <li>
+                  <a
                     href="#contact"
                     class="scrollactive-item"
                     @click="active = !active"
@@ -163,4 +177,3 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>

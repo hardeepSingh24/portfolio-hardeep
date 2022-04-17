@@ -12,6 +12,9 @@
     <Portfolio />
     <!-- End Portfolio -->
 
+    <PortfolioShowreel/>
+    <!-- End Portfolio Showreel-->
+
     <Contact />
     <!-- End contact -->
 
@@ -26,6 +29,7 @@ import Header from "../components/Header.vue";
 import Slider from "../components/slider/Slider.vue";
 import About from "../components/about/About.vue";
 import Portfolio from "../components/portfolio/Portfolio.vue";
+import PortfolioShowreel from "../components/portfolio/PortfolioShowreel.vue";
 import Contact from "../components/contact/Contact.vue";
 import Footer from "../components/Footer.vue";
 export default {
@@ -34,9 +38,10 @@ export default {
     Slider,
     About,
     Portfolio,
+    PortfolioShowreel,
     Contact,
-    Footer,
-  },
+    Footer
+},
   mounted() {
     document.body.classList.add("dark");
   },
