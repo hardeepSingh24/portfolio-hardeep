@@ -14,7 +14,7 @@
           <!-- End li -->
 
           <li v-scroll-reveal="{ delay: 60, distance: '20px' }">
-            <span><a href="#">hardeep.24sk@gmail.com</a></span>
+            <span><a :href="`mailto:${emailAddress}`">{{emailAddress}}</a></span>
           </li>
           <!-- End li -->
 
@@ -47,6 +47,7 @@
 export default {
   data() {
     return {
+      emailAddress: "hardeep.24sk@gmail.com",
       socialList: [
         // {
         //   icon: require("../assets/img/svg/social/facebook.svg"),
