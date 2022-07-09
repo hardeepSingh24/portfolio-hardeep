@@ -535,6 +535,8 @@ h6 {
 .social {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
   > li {
     margin: 0 10px;
   }
@@ -2102,11 +2104,14 @@ body.modal {
 
 .waxon_tm_contact .left .contact_social_link {
   text-decoration: none;
+  display: block;
+  padding-bottom: 10px;
 }
 
 .waxon_tm_contact .left .contact_social_text {
   color: #fff;
 }
+
 
 /*---------------------------------------------------*/
 /*	11) WAXON COPYRIGHT

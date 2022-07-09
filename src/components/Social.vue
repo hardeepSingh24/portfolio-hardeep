@@ -20,9 +20,14 @@ export default {
         //   src: require("../assets/img/svg/social/facebook.svg"),
         // },
         {
+          name: "Spotlight",
+          src: require("../assets/img/svg/social/spotlight.svg"),
+          link: "https://www.spotlight.com/2253-5610-7089"
+        },
+        {
           name: "Instagram",
           link: "https://www.instagram.com/hardeep_iamdeep",
-          src: require("../assets/img/svg/social/instagram.svg"),
+          src: require("../assets/img/svg/social/instagram.svg")
         },
       ],
     };

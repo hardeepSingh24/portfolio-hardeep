@@ -28,6 +28,19 @@
 
             <div class="contact_social" v-scroll-reveal="{ delay: 100 }">
               <a
+                :href="spotlightLink"
+                target="_blank"
+                class="contact_social_link"
+                ><img
+                  class="contact_social_image"
+                  :src="spotlightIcon"
+                  alt="spotlight"
+                />
+                &nbsp;<span class="contact_social_text">
+                  Spotlight
+                </span>
+              </a>
+              <a
                 :href="instagramLink"
                 target="_blank"
                 class="contact_social_link"
@@ -69,6 +82,8 @@ export default {
       contactImage: require("../../assets/img/portfolio/headshot4.jpg"),
       instagramIcon: require("../../assets/img/svg/social/instagram-white.png"),
       instagramLink: "https://www.instagram.com/hardeep_iamdeep",
+      spotlightIcon: require("../../assets/img/svg/social/spotlight-white.svg"),
+      spotlightLink: "https://www.spotlight.com/2253-5610-7089",
     };
   },
 };
