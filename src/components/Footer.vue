@@ -58,6 +58,10 @@ export default {
         //   link: "https://twitter.com/",
         // },
         {
+          icon: require("../assets/img/svg/social/spotlight.svg"),
+          link: "https://www.spotlight.com/2253-5610-7089",
+        },
+        {
           icon: require("../assets/img/svg/social/instagram.svg"),
           link: "https://www.instagram.com/hardeep_iamdeep",
         },
