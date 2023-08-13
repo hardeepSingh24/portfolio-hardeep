@@ -22,16 +22,15 @@
              Fluent in English, Italian, and Punjabi with competent Hindi.
             </p>
             <p v-scroll-reveal="{ delay: 80 }">
-              A theatre-trained Italian who moved to London to pursue training in screen acting, 
+              A theatre-trained Italian who moved to London to continue the training in screen acting and pursuing a career in 
               films &#38; television. 
               <br>
-              Currently enrolled in a 2-year course with the London School of Dramatic Art.
-              Having previously finished screen acting classes with "Anna Fiorentini's 
-              Stage and the City" and 2-year theatre training in Italy.
+              Having completed a 2-year training with the London School of Dramatic Art.
+              Currently working on various projects throughout the year.
               <br>
-              Film credits include: lead role in "Kinaree" and "Lost souls".
+              Film credits include: lead role in "Sheepdog", "Lost souls" and many more.
               <br>
-              Theatre credits include: "Sherlock Holmes" and "Le serve di Amleto".
+              Theatre credits include: "Sherlock Holmes", "Le serve di Amleto" and "Roberto Zucco".
             </p>
           </div>         
         </div>
