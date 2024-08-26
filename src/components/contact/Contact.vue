@@ -79,7 +79,7 @@ export default {
   data() {
     return {
       emailAddress: "hardeep.24sk@gmail.com",
-      contactImage: require("../../assets/img/portfolio/headshot4.jpg"),
+      contactImage: require("../../assets/img/portfolio/headshot-contact.jpg"),
       instagramIcon: require("../../assets/img/svg/social/instagram-white.png"),
       instagramLink: "https://www.instagram.com/hardeep_iamdeep",
       spotlightIcon: require("../../assets/img/svg/social/spotlight-white.svg"),
