@@ -29,6 +29,11 @@ export default {
           link: "https://www.instagram.com/hardeep_iamdeep",
           src: require("../assets/img/svg/social/instagram.svg")
         },
+        {
+          name: "IMDb",
+          link: "https://www.imdb.com/name/nm13818818/",
+          src: require("../assets/img/svg/social/imdb-black-square.svg"),
+        },
       ],
     };
   },

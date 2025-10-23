@@ -53,6 +53,19 @@
                   Instagram
                 </span>
               </a>
+              <a
+                :href="imdbLink"
+                target="_blank"
+                class="contact_social_link"
+                ><img
+                  class="contact_social_image"
+                  :src="imdbIcon"
+                  alt="imdb"
+                />
+                &nbsp;<span class="contact_social_text">
+                  IMDb
+                </span>
+              </a>
             </div>
           </div>
 
@@ -78,12 +91,14 @@ export default {
   },
   data() {
     return {
-      emailAddress: "hardeep.24sk@gmail.com",
+      emailAddress: "iamhardeep.official@gmail.com",
       contactImage: require("../../assets/img/portfolio/headshot-contact.jpg"),
-      instagramIcon: require("../../assets/img/svg/social/instagram-white.png"),
+      instagramIcon: require("../../assets/img/svg/social/instagram-color-on-black.svg"),
       instagramLink: "https://www.instagram.com/hardeep_iamdeep",
-      spotlightIcon: require("../../assets/img/svg/social/spotlight-white.svg"),
+      spotlightIcon: require("../../assets/img/svg/social/spotlight-color-on-black.svg"),
       spotlightLink: "https://www.spotlight.com/2253-5610-7089",
+      imdbIcon: require("../../assets/img/svg/social/imdb-color.svg"),
+      imdbLink: "https://www.imdb.com/name/nm13818818/",
     };
   },
 };

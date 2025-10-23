@@ -27,7 +27,7 @@
               This advanced training deepened his versatility and sharpened his on-screen presence.
             </p>
             <p v-scroll-reveal="{ delay: 80 }" style="margin-bottom: 20px;">
-              Film credits include lead roles in Sheepdog, Two Lifetimes and Lost Souls, showcasing his range and depth on camera.
+              Film credits include lead roles in Sheepdog, Two Lifetimes, Lost Souls, and The Lift, a short film he also produced, demonstrating both his versatility and creative initiative on screen.
               <br>
               Theatre credits feature performances in Sherlock Holmes, Le Serve di Amleto, and Roberto Zucco
             </p>

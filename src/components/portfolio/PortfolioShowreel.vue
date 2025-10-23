@@ -14,12 +14,11 @@
       <div class="tabcontent">
         <div class="portfolio_inner">
           <div style="padding:56.25% 0 0 0;position:relative;">
-            <iframe src="https://player.vimeo.com/video/1002474115?h=9f02be60bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;portrait=0&amp;byline=0&amp;title=0" 
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture" 
-              allowfullscreen 
+            <iframe src="https://player.vimeo.com/video/1129182542?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+              frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
               style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-              title="Hardeep monologue - Death of a saleman">
+              title="Hardeep - Showreel">
             </iframe>
           </div>
         </div>
