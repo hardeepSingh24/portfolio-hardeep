@@ -47,7 +47,7 @@
 export default {
   data() {
     return {
-      emailAddress: "hardeep.24sk@gmail.com",
+      emailAddress: "iamhardeep.official@gmail.com",
       socialList: [
         // {
         //   icon: require("../assets/img/svg/social/facebook.svg"),
@@ -64,6 +64,10 @@ export default {
         {
           icon: require("../assets/img/svg/social/instagram.svg"),
           link: "https://www.instagram.com/hardeep_iamdeep",
+        },
+        {
+          icon: require("../assets/img/svg/social/imdb-black.svg"),
+          link: "https://www.imdb.com/name/nm13818818/",
         },
         // {
         //   icon: require("../assets/img/svg/social/soundcloud.svg"),
