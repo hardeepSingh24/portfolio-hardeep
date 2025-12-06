@@ -9,7 +9,7 @@ import BackTop from "@mlqt/vue-back-top";
 import VueScrollReveal from "vue-scroll-reveal";
 import Vue2TouchEvents from "vue2-touch-events";
 import "vue-cool-lightbox/dist/vue-cool-lightbox.min.css";
-import "./assets/scss/style.scss";
+import "./assets/scss/style.scss"; 
 
 Vue.use(CoolLightBox);
 Vue.use(BackTop);
